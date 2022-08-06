@@ -1,0 +1,63 @@
+
+
+body {
+	width: 100%;
+	overflow-x: visible;
+}
+
+.navbar {
+	background-color: rgb(29, 189, 189);
+	color: rgb(223, 208, 211);
+	font-size: large;
+}
+
+.navbar-brand {
+	margin-bottom: 3px;
+}
+
+.navbar-nav a {
+	color: white;
+	margin-left: 20px;
+}
+
+.jumbotron {
+	margin-bottom: 40px;
+	background-color: white;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-rows: auto;
+	padding-bottom: 1rem;
+	grid-template-columns: 1fr 1fr;
+	margin: 40px 20px 0px 20px;
+	grid-gap: 10px;
+  }
+
+.item {
+	width: 100%;
+}
+
+
+
+@media screen and (max-width: 700px){
+	.grid-container {
+		grid-template-columns: 1fr;
+	}
+}
+
+.socials {
+	background-color: cornsilk;
+}
+
+
+
+
+.feature {
+	background-color: rgb(192, 192, 192);
+	margin: 20px 5% 20px 5%;
+}
+
+.form-group {
+	width: 300px;
+}
