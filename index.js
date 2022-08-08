@@ -1,5 +1,5 @@
 const host = 'localhost';
-const port = 8000;
+const port = 3000;
 
 const path = require('path');
 
@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.static("public"));
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log("Listen on the port 3000...");
 });
 
