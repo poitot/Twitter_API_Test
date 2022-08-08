@@ -4,6 +4,10 @@ Using node + express to handle serving static assets (HTML, CSS)
 
 Main HTML web pages created with only HTML, CSS with Bootstrap 5, with porting to make use of React after main features are completed on the backend and tested.
 
+# Usage
+
+To start clone the repository and run `node index` to start web server then open a web browser to localhost:3000
+
 # Features (Planned)
 
 1. Show a users liked tweets
